@@ -1,19 +1,49 @@
 window.onload = printIt;
 
-function printIt() {
-    let celsius = 10;
+function printIt(){ 
+//     let burgerPrice = 1;
+//     let burgersEaten = 0;
+//     let dollarsLeftInWallet = 30;
 
-    // Calculate Fahrenheit
-    // Take celsius, multiply it by 9/5
-    // Add 32.
+//     while (burgersEaten < 10 || dollarsLeftInWallet > 0) {
+//         burgersEaten = burgersEaten + 1;
+//         dollarsLeftInWallet = dollarsLeftInWallet - burgerPrice;
+//         console.log("I'm eating a burger now.");
+//         console.log('I have eaten '+ burgersEaten + ' burgers so far.');
+//         console.log('I have ' + dollarsLeftInWallet + ' dollars left.');
+    
 
-    let fahrenheit = celsius * 9 / 5 + 32;
+//     }
 
-    // Answer should be in the form of:
-    // 30 degrees Celsius converts to 86 degrees Fahrenheit.
+    // let answer = "After eating like a pig" + " I have " + dollarsLeftInWallet + " dollars left.";
+    // {
+    
+    let day = "Wednesday is a good day to die, But not today Death. Not today.";
+    
+    
+    // let i = 0;
 
-    let answer = celsius + ' degrees Celsius equals ' + fahrenheit + " degrees Fahrenheit.";
+    // while(i > 0) {
+    //     console.log(day[i]);
+    //     i = i - 1;
+    // }
 
-    // Print out fahrenheit
+    let answer = day.length;
+    console.log(day[i])
+   
+    i = i + 1;
+
+    console.log(day[i])
+    
+    let answer = day[i];
+    
+        let answer = 0;
+
+    while(answer < 10) {
+        console.log(answer);
+        answer = answer + 1;
+    }
+    
+
     document.querySelector('.calculator').innerText = answer;
 }
